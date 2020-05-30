@@ -27,6 +27,8 @@ Algorithms that use depth-first search as a building block include:
  Breadth-first search can be used to solve many problems in graph theory, for example:
                                OR
                        Level Order Traversal 
+                       
+    It's uses Queue data structure to implement BFS
 
     1. Copying garbage collection, Cheney's algorithm
     2. Finding the shortest path between two nodes u and v, with path length measured by number of edges (an advantage over depth-first search)[10]
