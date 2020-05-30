@@ -44,3 +44,9 @@ Algorithms that use depth-first search as a building block include:
    3. To solve salesman problem
    4. Topological sorting 
   
+Topological sorting 
+
+    1. Graph must be directed 
+    2. No Cycle 
+    3. DAG(Directed Acyclic Graph) has at least one topological sorting order 
+    4. DFS -Depth first search can be used to implement Topological sorting 
