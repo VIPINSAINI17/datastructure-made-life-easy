@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="adjacencylistrepresentation\AdjacencyList.cs" />
+    <Compile Include="adjacencylistrepresentation_directedgraph\AdjenceyListDirectedGraph.cs" />
     <Compile Include="graphadjacencylist\bfs\GraphBfs.cs" />
     <Compile Include="graphadjacencylist\dfs\GraphDfs.cs" />
     <Compile Include="Program.cs" />
@@ -52,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="adjacencylistrepresentation\output.txt" />
+    <Content Include="adjacencylistrepresentation_directedgraph\output.txt" />
     <Content Include="graphadjacencylist\bfs\output.txt" />
     <Content Include="graphadjacencylist\dfs\output.txt" />
   </ItemGroup>

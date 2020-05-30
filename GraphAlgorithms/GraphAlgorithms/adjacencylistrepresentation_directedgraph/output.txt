@@ -1,0 +1,24 @@
+﻿added 5, 2
+added 5, 0
+added 4, 0
+added 4, 1
+added 2, 3
+added 3, 1
+
+Adjacency list of vertex 0
+head
+
+Adjacency list of vertex 1
+head
+
+Adjacency list of vertex 2
+head -> 3
+
+Adjacency list of vertex 3
+head -> 1
+
+Adjacency list of vertex 4
+head -> 0 -> 1
+
+Adjacency list of vertex 5
+head -> 2 -> 0
