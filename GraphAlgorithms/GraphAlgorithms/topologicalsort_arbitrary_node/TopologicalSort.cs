@@ -80,9 +80,15 @@ namespace GraphAlgorithms.topologicalsort_arbitrary_node
 
         public static void Topological(int enrtyVertex, bool[] visited)
         {
+            visited[enrtyVertex] = true;
             Stack<int> stack = new Stack<int>();
+            TopologicalSort(enrtyVertex, visited, stack);
             for (int i = 0; i < N; i++)
-                TopologicalSort(i, visited, stack);
+            {
+
+                if (enrtyVertex != i && !visited[i])
+                    TopologicalSort(i, visited, stack);
+            }
 
             // Print contents of stack  
             while (stack.Count != 0)
