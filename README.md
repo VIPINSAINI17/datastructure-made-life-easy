@@ -53,7 +53,7 @@ Topological sorting
     
 Single Source Shortest Path Algorithm
 
-    1. Using BFS
+    1. Using BFS - Will not work for the weighted directed/undirected graph to find the shortest path.
     2. Using DFS
     3. Using Dijkastra 
     4. Using Bellman ford
