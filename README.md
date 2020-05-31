@@ -57,3 +57,4 @@ Single Source Shortest Path Algorithm
     2. Using DFS
     3. Using Dijkastra 
     4. Using Bellman ford
+    5. Graph will be alwsys connected, no isolated nodes 
