@@ -50,3 +50,11 @@ Topological sorting
     2. No Cycle 
     3. DAG(Directed Acyclic Graph) has at least one topological sorting order 
     4. DFS -Depth first search can be used to implement Topological sorting 
+    
+Single Source Shortest Path Algorithm
+
+    1. Using BFS - Will not work for the weighted directed/undirected graph to find the shortest path.
+    2. Using DFS
+    3. Using Dijkastra 
+    4. Using Bellman ford
+    5. Graph will be alwsys connected, no isolated nodes 
