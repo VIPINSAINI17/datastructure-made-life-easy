@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="adjacencylistrepresentation\AdjacencyList.cs" />
     <Compile Include="adjacencylistrepresentation_directedgraph\AdjenceyListDirectedGraph.cs" />
+    <Compile Include="bellmanford\BellmonFordAdjList.cs" />
+    <Compile Include="bellmanford\WeightedNode.cs" />
     <Compile Include="graphadjacencylist\bfs\GraphBfs.cs" />
     <Compile Include="graphadjacencylist\dfs\GraphDfs.cs" />
     <Compile Include="Program.cs" />
