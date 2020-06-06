@@ -1,5 +1,6 @@
 ﻿using StringRelatedAlgorithms.checkstringanagrams;
 using StringRelatedAlgorithms.checkstringpermutation;
+using StringRelatedAlgorithms.checkstringsubsequence;
 using StringRelatedAlgorithms.longestpalindromicsubsequence;
 using StringRelatedAlgorithms.longestpalindromicsubstring;
 using StringRelatedAlgorithms.longtestcommonsubsequence;
@@ -33,7 +34,9 @@ namespace StringRelatedAlgorithms
 
             //IsStringPermutationTest();
 
-            IsStringAnagramTest();
+            //IsStringAnagramTest();
+
+            IsSubSequenceTest();
         }
 
         public static void OptimizedFindLongestCommonSubsequnec()
@@ -83,6 +86,13 @@ namespace StringRelatedAlgorithms
         public static void IsStringAnagramTest()
         {
             bool len = CheckStringAnagrams.IsStringAnagram("ab", "ba");
+            Console.WriteLine(len);
+        }
+
+        public static void IsSubSequenceTest()
+        {
+            //Input: str1 = "AXY", str2 = "ADXCPY"
+            bool len = CheckStringSubsequence.IsSubSequence("AXY", "ADXCPY", "AXY".Length, "ADXCPY".Length);
             Console.WriteLine(len);
         }
     }
