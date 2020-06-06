@@ -20,7 +20,9 @@ namespace StringRelatedAlgorithms
 
             //OptimizedFindLongestCommonSubsequnec();
 
-            LongestPalindromicSubseq();
+            //LongestPalindromicSubseq();
+
+            OptimizedLongestPalindromicSubseq();
         }
 
         public static void OptimizedFindLongestCommonSubsequnec()
@@ -36,6 +38,13 @@ namespace StringRelatedAlgorithms
             string s1 = "ELRMENMET";
             string s2 = "eretpat";
             int len = LongestPalindromicSubsequence.LongestPalindromicSubseq(s1, 0,s1.Length-1);
+            Console.WriteLine(len);
+        }
+
+        public static void OptimizedLongestPalindromicSubseq()
+        {
+            string s1 = "ELRMENMET";
+            int len = Optimized_LongestPalindromicSubsequence.OptimizedFindLongestPalindromicSubseq(s1);
             Console.WriteLine(len);
         }
     }
