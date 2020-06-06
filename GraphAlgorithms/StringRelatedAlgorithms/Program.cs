@@ -25,7 +25,9 @@ namespace StringRelatedAlgorithms
 
             //OptimizedLongestPalindromicSubseq();
 
-            LongestPalindromicSubstringTest();
+            // LongestPalindromicSubstringTest();
+
+            OptimizedLongestPalindromicSubstringTest();
         }
 
         public static void OptimizedFindLongestCommonSubsequnec()
@@ -55,6 +57,13 @@ namespace StringRelatedAlgorithms
         {
             string s = "ABCCBUA";
             int len = LongestPalindromicSubstring.LongestPalindromicSubstr(s,0, s.Length-1);
+            Console.WriteLine(len);
+        }
+
+        public static void OptimizedLongestPalindromicSubstringTest()
+        {
+            string s = "ABCCBUA";
+            int len = Optimized_LongestPalindromicSubstring.OptimizedLongestPalindromicSubstr(s);
             Console.WriteLine(len);
         }
     }
