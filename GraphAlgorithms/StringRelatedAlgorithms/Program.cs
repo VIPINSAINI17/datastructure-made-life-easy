@@ -4,6 +4,7 @@ using StringRelatedAlgorithms.checkstringsubsequence;
 using StringRelatedAlgorithms.longestpalindromicsubsequence;
 using StringRelatedAlgorithms.longestpalindromicsubstring;
 using StringRelatedAlgorithms.longtestcommonsubsequence;
+using StringRelatedAlgorithms.minimumcosttoreachlastcellinmatrix;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,7 +37,9 @@ namespace StringRelatedAlgorithms
 
             //IsStringAnagramTest();
 
-            IsSubSequenceTest();
+            //IsSubSequenceTest();
+
+            MinCostToReachLastCellInMatrixTest();
         }
 
         public static void OptimizedFindLongestCommonSubsequnec()
@@ -93,6 +96,36 @@ namespace StringRelatedAlgorithms
         {
             //Input: str1 = "AXY", str2 = "ADXCPY"
             bool len = CheckStringSubsequence.IsSubSequence("AXY", "ADXCPY", "AXY".Length, "ADXCPY".Length);
+            Console.WriteLine(len);
+        }
+
+        public static void Optimized_MinCostToReachLastCellInMatrixTest()
+        {
+            int[,] array =
+                    {
+                        { 4, 7, 8, 6, 4 },
+                        { 6, 7, 3, 9, 2 },
+                        { 3, 8, 1, 2, 4 },
+                        { 7, 1, 7, 3, 7 },
+                        { 2, 9, 8, 9, 3 }
+                    };
+            //Input: str1 = "AXY", str2 = "ADXCPY"
+            int len = Optimized_MinCostToReachLastCellInMatrix.MinCostToReachLastCell(array);
+            Console.WriteLine(len);
+        }
+
+        public static void MinCostToReachLastCellInMatrixTest()
+        {
+            int[,] array =
+                    {
+                        { 4, 7, 8, 6, 4 },
+                        { 6, 7, 3, 9, 2 },
+                        { 3, 8, 1, 2, 4 },
+                        { 7, 1, 7, 3, 7 },
+                        { 2, 9, 8, 9, 3 }
+                    };
+            //Input: str1 = "AXY", str2 = "ADXCPY"
+            int len = MinCostToReachLastCellInMatrix.MinCostToReachLastCell(array);
             Console.WriteLine(len);
         }
     }
