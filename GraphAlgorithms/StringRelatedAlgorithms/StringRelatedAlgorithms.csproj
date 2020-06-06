@@ -44,6 +44,8 @@
     <Compile Include="checkstringanagrams\CheckStringAnagrams.cs" />
     <Compile Include="checkstringpermutation\CheckStringPermutation.cs" />
     <Compile Include="checkstringsubsequence\CheckStringSubsequence.cs" />
+    <Compile Include="convertonestringtoanotherdp\ConvertOneStringToAnotherDP.cs" />
+    <Compile Include="housetheifproblem\HouseTheifProblemDP.cs" />
     <Compile Include="longestpalindromicsubsequence\LongestPalindromicSubsequence.cs" />
     <Compile Include="longestpalindromicsubsequence\Optimized_LongestPalindromicSubsequence.cs" />
     <Compile Include="longestpalindromicsubstring\LongestPalindromicSubstring.cs" />
@@ -52,8 +54,11 @@
     <Compile Include="longtestcommonsubsequence\Optimized_LongestCommonSubsequence.cs" />
     <Compile Include="minimumcosttoreachlastcellinmatrix\MinCostToReachLastCellInMatrix.cs" />
     <Compile Include="minimumcosttoreachlastcellinmatrix\Optimized_MinCostToReachLastCellInMatrix.cs" />
+    <Compile Include="numberfactorproblemdp\NumberFactorProblemDynamicProgarm.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="waystoreachlastcell\WaysToReachLastCell.cs" />
+    <Compile Include="zerooneknapsackdp\ZeroOneKanpsackDP.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
