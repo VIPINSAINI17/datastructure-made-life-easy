@@ -1,6 +1,7 @@
 ﻿using StringRelatedAlgorithms.checkstringanagrams;
 using StringRelatedAlgorithms.checkstringpermutation;
 using StringRelatedAlgorithms.checkstringsubsequence;
+using StringRelatedAlgorithms.housetheifproblem;
 using StringRelatedAlgorithms.longestpalindromicsubsequence;
 using StringRelatedAlgorithms.longestpalindromicsubstring;
 using StringRelatedAlgorithms.longtestcommonsubsequence;
@@ -45,7 +46,9 @@ namespace StringRelatedAlgorithms
 
             //NumberOfPathsAuxTest();
 
-            WaysToGetNTest();
+            //WaysToGetNTest();
+
+            HouseTheifProblemDPTest();
         }
 
         public static void OptimizedFindLongestCommonSubsequnec()
@@ -152,6 +155,13 @@ namespace StringRelatedAlgorithms
         public static void WaysToGetNTest()
         {
             int len = NumberFactorProblemDynamicProgarm.WaysToGetN(5);
+            Console.WriteLine(len);
+        }
+
+        public static void HouseTheifProblemDPTest()
+        {
+            int[] hval = {6, 7, 1, 3, 8, 2, 4};
+            int len = HouseTheifProblemDP.maxMoney(hval);
             Console.WriteLine(len);
         }
     }
