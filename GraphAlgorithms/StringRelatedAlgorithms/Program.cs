@@ -5,6 +5,7 @@ using StringRelatedAlgorithms.longestpalindromicsubsequence;
 using StringRelatedAlgorithms.longestpalindromicsubstring;
 using StringRelatedAlgorithms.longtestcommonsubsequence;
 using StringRelatedAlgorithms.minimumcosttoreachlastcellinmatrix;
+using StringRelatedAlgorithms.waystoreachlastcell;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,7 +40,9 @@ namespace StringRelatedAlgorithms
 
             //IsSubSequenceTest();
 
-            MinCostToReachLastCellInMatrixTest();
+            //MinCostToReachLastCellInMatrixTest();
+
+            NumberOfPathsAuxTest();
         }
 
         public static void OptimizedFindLongestCommonSubsequnec()
@@ -126,6 +129,20 @@ namespace StringRelatedAlgorithms
                     };
             //Input: str1 = "AXY", str2 = "ADXCPY"
             int len = MinCostToReachLastCellInMatrix.MinCostToReachLastCell(array);
+            Console.WriteLine(len);
+        }
+
+        public static void NumberOfPathsAuxTest()
+        {
+            int[,] array =
+                    { 
+						{ 4, 7, 1, 6 }, 
+						{ 5, 7, 3, 9 }, 
+						{ 3, 2, 1, 2 }, 
+						{ 7, 1, 6, 3 } 
+                    };
+            //Input: str1 = "AXY", str2 = "ADXCPY"
+            int len = WaysToReachLastCell.NumberOfPathsAux(array,25);
             Console.WriteLine(len);
         }
     }
