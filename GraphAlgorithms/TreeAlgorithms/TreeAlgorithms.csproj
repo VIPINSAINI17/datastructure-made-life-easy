@@ -49,6 +49,7 @@
     <Compile Include="BST\postorder\PostOrderTrversal.cs" />
     <Compile Include="BST\preorder\PreOrderTrversal.cs" />
     <Compile Include="BST\search\SearchInTree.cs" />
+    <Compile Include="BST\TreeNode.cs" />
     <Compile Include="BST\update\UpdateInTree.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
