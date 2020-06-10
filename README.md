@@ -58,3 +58,9 @@ Single Source Shortest Path Algorithm
     3. Using Dijkastra 
     4. Using Bellman ford
     5. Graph will be alwsys connected, no isolated nodes 
+
+
+Tree Data Structure 
+
+     1. Tree Traversal Pre Order, Post Order and In Order   -----------Uses Stack.
+     2. Level Order Traversal -----------Uses Queue
