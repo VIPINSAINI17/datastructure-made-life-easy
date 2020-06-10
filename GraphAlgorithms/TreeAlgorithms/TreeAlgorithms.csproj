@@ -55,6 +55,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Testing\inorder\InOrderTest.cs" />
     <Compile Include="Testing\insert\InsertNodeTest.cs" />
+    <Compile Include="Testing\levelorder\LevelOrderTrversalTest.cs" />
     <Compile Include="Testing\postorder\PostOrderTest.cs" />
     <Compile Include="Testing\preorder\PreOrderTest.cs" />
   </ItemGroup>

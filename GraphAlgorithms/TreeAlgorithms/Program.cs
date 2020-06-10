@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TreeAlgorithms.Testing.inorder;
 using TreeAlgorithms.Testing.insert;
+using TreeAlgorithms.Testing.levelorder;
 using TreeAlgorithms.Testing.postorder;
 using TreeAlgorithms.Testing.preorder;
 
@@ -23,8 +24,11 @@ namespace TreeAlgorithms
             //PostOrderTest postOrderTest = new PostOrderTest();
             //postOrderTest.InsertNodeToTreeRoot();
 
-            PreOrderTest preOrderTest = new PreOrderTest();
-            preOrderTest.InsertNodeToTreeRoot();
+            //PreOrderTest preOrderTest = new PreOrderTest();
+            //preOrderTest.InsertNodeToTreeRoot();
+
+            //PreOrderTest preOrderTest = new PreOrderTest();
+            LevelOrderTrversalTest.InsertNodeToTreeRoot();
         }
     }
 }
