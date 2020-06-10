@@ -31,9 +31,9 @@ namespace TreeAlgorithms.BST.insert
             // TODO insert on right if value is greater than root node 
 
             if (root.Data < data) // Right
-                InsertIntoTree(root.Right, data);
+                root.Right = InsertIntoTree(root.Right, data);
             if(root.Data > data) // Left
-                InsertIntoTree(root.Left, data);
+               root.Left = InsertIntoTree(root.Left, data);
 
             /* return the (unchanged) node pointer */
             return root;

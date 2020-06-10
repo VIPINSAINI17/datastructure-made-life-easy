@@ -13,16 +13,25 @@ namespace TreeAlgorithms.Testing.insert
         TreeNode root = null;
         public void InsertNodeToTreeRoot()
         {
-             root = InsertInTree.InsertIntoTree(null, 10);
+             root = InsertInTree.InsertIntoTree(null, 50);
             InsertNodeToTreeNonRoot();
         }
 
         public void InsertNodeToTreeNonRoot()
         {
-             root = InsertInTree.InsertIntoTree(root, 4);
+            //tree.insert(50);
+            //tree.insert(30);
+            //tree.insert(20);
+            //tree.insert(40);
+            //tree.insert(70);
+            //tree.insert(60);
+            //tree.insert(80); 
              root = InsertInTree.InsertIntoTree(root, 30);
+             root = InsertInTree.InsertIntoTree(root, 20);
              root = InsertInTree.InsertIntoTree(root, 40);
-             root = InsertInTree.InsertIntoTree(root, 7);
+             root = InsertInTree.InsertIntoTree(root, 70);
+             root = InsertInTree.InsertIntoTree(root, 60);
+             root = InsertInTree.InsertIntoTree(root, 80);
         }
     }
 }
