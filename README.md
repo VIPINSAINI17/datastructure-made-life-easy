@@ -58,3 +58,14 @@ Single Source Shortest Path Algorithm
     3. Using Dijkastra 
     4. Using Bellman ford
     5. Graph will be alwsys connected, no isolated nodes 
+
+
+Tree Data Structure 
+
+     1. Tree Traversal Pre Order, Post Order and In Order   -----------Uses Stack.
+     2. Level Order Traversal -----------Uses Queue
+
+Tree Breadth-first search / level order
+
+Main article: Breadth-first search
+Trees can also be traversed in level-order, where we visit every node on a level before going to a lower level. This search is referred to as breadth-first search (BFS), as the search tree is broadened as much as possible on each depth before going to the next depth.
