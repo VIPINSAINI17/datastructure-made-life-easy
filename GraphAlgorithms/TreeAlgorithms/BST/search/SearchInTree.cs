@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TreeAlgorithms.BST.search
 {
-    class SearchInTree
+    public class SearchInTree
     {
+
     }
 }
