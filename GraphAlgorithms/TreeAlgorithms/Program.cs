@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TreeAlgorithms.Testing.deletetest;
 using TreeAlgorithms.Testing.inorder;
 using TreeAlgorithms.Testing.insert;
 using TreeAlgorithms.Testing.levelorder;
@@ -28,7 +29,8 @@ namespace TreeAlgorithms
             //preOrderTest.InsertNodeToTreeRoot();
 
             //PreOrderTest preOrderTest = new PreOrderTest();
-            LevelOrderTrversalTest.InsertNodeToTreeRoot();
+            //LevelOrderTrversalTest.InsertNodeToTreeRoot();
+            DeleteInTreeTest.InsertNodeToTreeRoot();
         }
     }
 }

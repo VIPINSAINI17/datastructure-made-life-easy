@@ -53,8 +53,6 @@ namespace TreeAlgorithms.BST.delete
                     root.Data = minNodeForRight.Data; // Replacing current node with minimum node from right subtree
                     root.Right = DeleteNodeOfBST(root.Right, minNodeForRight.Data);  // Deleting minimum node from right now
                 }
-
-
                 else if (root.Left != null) // if nodeToBeDeleted has only left child
                 {
                     root = root.Left;
