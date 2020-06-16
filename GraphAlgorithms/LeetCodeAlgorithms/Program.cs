@@ -1,4 +1,5 @@
 ﻿using LeetCodeAlgorithms.find_all_anagrams_in_a_string;
+using LeetCodeAlgorithms.minimum_window_substring;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,9 @@ namespace LeetCodeAlgorithms
     {
         static void Main(string[] args)
         {
-            FindAllAnagrams.AllAnagrams("abab", "ab");
+            //FindAllAnagrams.AllAnagrams("abab", "ab");
+
+            MinimumWindowSubstring.FindAllMinimumWindowSubstring("ADOBECODEBANC", "ABC");
         }
     }
 }
