@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingAlgorithms", "Sear
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrieAlgorithms", "TrieAlgorithms\TrieAlgorithms.csproj", "{A39C53A8-0AF1-4C15-9BFA-DEBB01B57888}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeSolutions", "LeetCodeAlgorithms\LeetCodeSolutions.csproj", "{34676619-B91B-4599-8C9E-B4949C423692}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{A39C53A8-0AF1-4C15-9BFA-DEBB01B57888}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A39C53A8-0AF1-4C15-9BFA-DEBB01B57888}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A39C53A8-0AF1-4C15-9BFA-DEBB01B57888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34676619-B91B-4599-8C9E-B4949C423692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34676619-B91B-4599-8C9E-B4949C423692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34676619-B91B-4599-8C9E-B4949C423692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34676619-B91B-4599-8C9E-B4949C423692}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
