@@ -19,20 +19,16 @@ namespace LeetCodeAlgorithms.minimum_window_substring
     //  If there is such window, you are guaranteed that there will always be only one unique minimum window in S.
     public class MinimumWindowSubstring
     {
-        public static List<string> FindAllMinimumWindowSubstring(string source, string target)
+        public static string FindAllMinimumWindowSubstring(string source, string target)
         {
 
-            Dictionary<char, int> charFrequency = new Dictionary<char, int>();
+            int[] freDict = new int[128];
             List<string> minWindowList = new List<string>();
-            int maxValue = int.MaxValue;
-
+            int minValue = int.MaxValue;
+            string minWindowSubstring = string.Empty;
             foreach (var c in target)
             {
-                if (charFrequency.ContainsKey(c))
-                    charFrequency[c] = charFrequency[c] + 1;
-                else
-                    charFrequency.Add(c, 1);
-
+                freDict[c]++;
             }
 
             int rightPointer = 0;
@@ -44,33 +40,36 @@ namespace LeetCodeAlgorithms.minimum_window_substring
             {
                 char rightValue = source[rightPointer];
 
-                if (charFrequency.ContainsKey(rightValue))
-                    charFrequency[rightValue] = charFrequency[rightValue] - 1;
-                continue;
-                
-                if (charFrequency[rightValue] == 0) counter--;
+                if (freDict[rightValue] > 0)
+                {
+                    counter--;
+                }
+
+                freDict[rightValue]--;
+
                 rightPointer++;
 
                 while (counter == 0)
                 {
                     char leftValue = source[leftPointer];
 
-                    if (charFrequency.ContainsKey(leftValue))
-                        charFrequency[leftValue] = charFrequency[leftValue] + 1;
+                    freDict[leftValue]++;
 
-                    if (charFrequency[leftValue] == 1) counter++;
+                    if (freDict[leftValue] > 0) counter++;
 
                     int sizeOfSubstring = rightPointer - leftPointer;
-                    if (sizeOfSubstring < maxValue)
+
+                    if (sizeOfSubstring < minValue)
                     {
- 
-                        string minWindowSubstring = source.Substring(leftPointer, sizeOfSubstring);
-                        minWindowList.Add(minWindowSubstring);
+
+                        minValue = sizeOfSubstring;
+                        minWindowSubstring = source.Substring(leftPointer, sizeOfSubstring);
+                        //minWindowList.Add(minWindowSubstring);
                     }
                     leftPointer++;
                 }
             }
-            return minWindowList;
+            return minWindowSubstring;
         }
     }
 }
