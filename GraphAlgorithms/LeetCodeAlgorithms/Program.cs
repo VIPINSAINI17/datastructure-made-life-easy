@@ -1,4 +1,5 @@
 ﻿using LeetCodeAlgorithms.find_all_anagrams_in_a_string;
+using LeetCodeAlgorithms.longest_substring_without_repeating_characters;
 using LeetCodeAlgorithms.minimum_window_substring;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,9 @@ namespace LeetCodeAlgorithms
         {
             //FindAllAnagrams.AllAnagrams("abab", "ab");
 
-            MinimumWindowSubstring.FindAllMinimumWindowSubstring("ADOBECODEBANC", "ABC");
+            //MinimumWindowSubstring.FindAllMinimumWindowSubstring("ADOBECODEBANC", "ABC");
+
+            LongestSubstringWithoutRepeatingChars.FindLongestSubstringWithoutRepeatingChars("pwwkew");
         }
     }
 }
