@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayAlgorithms\length-of-smallest-subarray-with-sum-greater-number\SmallestSubarrayGreater.cs" />
     <Compile Include="find-all-anagrams-in-a-string\FindAllAnagrams.cs" />
     <Compile Include="longest-substring-with-at-most-two-distinct-characters\LongestSubstringWithTwoDistinctChars.cs" />
     <Compile Include="longest-substring-without-repeating-characters\LongestSubstringWithoutRepeatingChars.cs" />
