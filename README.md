@@ -2,6 +2,8 @@
 Very good links
 https://duncan-mcardle.medium.com/leetcode-problem-2-longest-substring-without-repeating-characters-javascript-993890bf8eac
 
+https://www.interviewbit.com/blog/longest-substring-without-repeating-characters/
+
 
 # datastructure-made-life-easy
 Most simple way to explain every single data structure 
