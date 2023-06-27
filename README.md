@@ -149,3 +149,33 @@ var lengthOfLongestSubstring = function (s) {
 };
 
 console.log(lengthOfLongestSubstring("abaaaa"));
+
+
+// check for anagram
+// check for anagram
+
+function checkForAnagram(s1,s2){
+
+    let strLen1 = s1.length;
+    let strLen2 = s2.length;
+
+    if(strLen1 != strLen2) return false;
+
+    // sort both strings
+    s1.sort();
+    s2.sort();
+
+    // compare both the strings
+    for(let i = 0; i< s1.length; i++){
+        if(s1[i] != s2[i]) return false;
+    }
+
+    return true;
+}
+
+
+     
+// Driver Code
+let str1=['t', 'e', 's', 't'];
+let str2=['t', 'e', 's', 't'];
+console.log(checkForAnagram(str1,str2))
